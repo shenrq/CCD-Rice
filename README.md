@@ -26,3 +26,27 @@ Run scripts in the following sequence.
 18. Use `script/postprocess/filter-less-years.py` to eliminate the pixels with low planting years and regenerate the rice map.
 19. Use `script/area-time-series-filter.jl` to eliminate unreasonable fluctuations in rice area in a small region and regenerate the rice map.
 
+## Notice
+
+Scripts with extension `js` are GEE codes, please copy the codes and run on GEE code editor.
+
+Scripts with extensions `jl` and `py` are codes run in local devices.
+
+The versions of softwares and the some important packages are as follows:
+
+- Julia: 1.10.0
+- Python: 3.9.17
+- GDAL: 2.3.3
+- ArchGDAL (Julia package): 0.10.2
+- DatFrames (Julia package): 1.6.1
+- StatsBase (Julia package): 0.33.21
+- numpy (Python package): 1.24.3
+- scikit-learn (Python package): 1.2.2
+- pandas (Python package): 1.5.3
+- rasterio (Python package): 1.3.2
+- opencv-python (Python package): 4.7.0
+
+## Dataset
+
+The distribution maps of rice in China from 1990 to 2016 (CCD-Rice) generated using this method are publicly available on https://doi.org/10.57760/sciencedb.15865.
+
