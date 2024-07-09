@@ -1,6 +1,6 @@
 # CCD-Rice: A long-term paddy rice distribution dataset in China at 30 m resolution
 
-This repository stores the codes of a rice mapping method.
+This repository stores the codes of a rice mapping method used in paper [*CCD-Rice: A long-term paddy rice distribution dataset in China at 30 m resolution*](https://doi.org/10.5194/essd-2024-147).
 
 ## Usage
 
@@ -26,6 +26,8 @@ Run scripts in the following sequence.
 18. Use `script/postprocess/filter-less-years.py` to eliminate the pixels with low planting years and regenerate the rice map.
 19. Use `script/area-time-series-filter.jl` to eliminate unreasonable fluctuations in rice area in a small region and regenerate the rice map.
 
+Please refer to the paper for specific methods.
+
 ## Notice
 
 Scripts with extension `js` are GEE codes, please copy the codes and run on GEE code editor.
@@ -49,4 +51,8 @@ The versions of softwares and the some important packages are as follows:
 ## Dataset
 
 The distribution maps of rice in China from 1990 to 2016 (CCD-Rice) generated using this method are publicly available on https://doi.org/10.57760/sciencedb.15865.
+
+## Citation
+
+Shen, R., Peng, Q., Li, X., Chen, X., and Yuan, W.: CCD-Rice: A long-term paddy rice distribution dataset in China at 30 m resolution, Earth Syst. Sci. Data Discuss. \[preprint\], https://doi.org/10.5194/essd-2024-147, in review, 2024.
 
