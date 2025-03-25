@@ -20,7 +20,7 @@ exports.getCollection = function (
   var dateFilter2 = ee.Filter.date(
     dStart2.advance(-dStep2, unit2), dEnd2.advance(dStep2, unit2)
   );
-  var S2 = ee.ImageCollection('COPERNICUS/S2')
+  var S2 = ee.ImageCollection('COPERNICUS/S2_HARMONIZED')
     .filter(dateFilter2).filterBounds(studyPlace);
   var S2C = ee.ImageCollection('COPERNICUS/S2_CLOUD_PROBABILITY')
     .filter(dateFilter2).filterBounds(studyPlace);
