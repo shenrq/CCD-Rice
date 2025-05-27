@@ -1,6 +1,6 @@
 # CCD-Rice: A long-term paddy rice distribution dataset in China at 30 m resolution
 
-This repository stores the codes of a rice mapping method used in paper [*CCD-Rice: A long-term paddy rice distribution dataset in China at 30 m resolution*](https://doi.org/10.5194/essd-2024-147).
+This repository stores the codes of a rice mapping method used in paper [*CCD-Rice: A long-term paddy rice distribution dataset in China at 30 m resolution*](https://doi.org/10.5194/essd-17-2193-2025).
 
 ## Usage
 
@@ -54,5 +54,5 @@ The distribution maps of rice in China from 1990 to 2016 (CCD-Rice) generated us
 
 ## Citation
 
-Shen, R., Peng, Q., Li, X., Chen, X., and Yuan, W.: CCD-Rice: A long-term paddy rice distribution dataset in China at 30 m resolution, Earth Syst. Sci. Data Discuss. \[preprint\], https://doi.org/10.5194/essd-2024-147, in review, 2024.
+Shen, R., Peng, Q., Li, X., Chen, X., and Yuan, W.: CCD-Rice: a long-term paddy rice distribution dataset in China at 30 m resolution, Earth Syst. Sci. Data, 17, 2193–2216, https://doi.org/10.5194/essd-17-2193-2025, 2025.
 
